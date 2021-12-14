@@ -1,0 +1,427 @@
+dd/mm/yyyy
+
+06/04/2021
+PSN Resolver is back now it also supports IP to PSN !
+Added "IP Aggregator" to Text Tools.
+Updated "Discord Message Faker", Now it handles mentions and url formats.
+Renamed "dSTAT's L7" to "dSTAT's" since there is newly added L4 graphs.
+Renamed "IP Score" to "VPN Detector" for better referencing.
+Updated "VPN Detector" for better accuracy and added detection for "ExpressVPN, ProtonVPN, Namecheap, IPVanish, Mullvad, VyprVPN, ZenMate, Hide.me".
+Updated "Cloudflare Resolver" added CrimeFlare detection.
+Updated "SMS Receiver" and "Website Link Extractor" to work more reliably.
+The action "Clear Site Data" now also delete storage cache.
+Service Worker will now update itself if cache is changed and block unwanted script injection.
+
+06/03/2021
+Website title updated, moved the title before the website name.
+Service worker updated to work with future versions of Chromium.
+You will now be warned in case the website is not loaded with HTTPS.
+Updated "Text Editor" from 0.21.2 to 0.22.3
+Updated "JSZip" from 3.5.0 to 3.6.0
+Updated "JQuery" from 3.5.1 to 3.6.0
+Updated "OverlayScrollbars" from 1.13.0 to 1.13.1
+Updated "SweetAlert2" from 10.10.4 to 10.15.5
+
+09/02/2021
+Browser scheme is now set to black thanks to web.dev's article.
+Updated "JS Deobfuscator" from 0.2.8 to 3.0, It now supports latest JS Obfuscator as well as other obfuscations like JSFuck.
+Updated "JS Obfuscator" from 2.9.4 to 2.10.3
+Added "Amazon #2" to dSTAT's L7.
+
+30/01/2020
+Sorry for the downtime i had to reinstall my whole server since my provider lost all it's data.
+All the new registered users which have registered after the 6 Dec 2020 will have to register back.
+Updated "Bootstrap" from 4.5.3 to 4.6.0
+Updated "JS Deobfuscator" from 0.2.7 to 0.2.8
+Removed snow to header from the xmas holiday.
+Registration will only display errors on blur in order to not display annoying errors.
+Fixed issue where you were not able to update profile because of an empty api key.
+
+06/12/2020
+Added snow to header to match with XMAS holiday.
+Added OpenSearch functionality for easier web search.
+Updated "PHP" from 7.x to 8.x 🎉
+Updated "JS Obfuscator" from 1.3.0 to 2.9.4
+Updated "Bootstrap" from 4.5.2 to 4.5.3
+Updated "FontAwesome" from 5.14.0 to 5.15.1
+Updated "Monaco Editor" from 0.20.0 to 0.21.2
+Updated "SweetAlert2" from 9.15.2 to 10.10.4
+
+06/09/2020
+Updated "Bootstrap" from 4.5.0 to 4.5.2
+Updated "JS Deobfuscator" from 0.2.6 to 0.2.7
+Updated "FontAwesome" from 5.13.0 to 5.14.0
+Updated "OverlayScrollbars" from 1.12.0 to 1.13.0
+Updated website favicons.
+
+06/07/2020
+Updated "JS Deobfuscator" from 0.2 to 0.2.6
+Updated "JS Obfuscator" from 1.0.1 to 1.3.0
+Updated "SweetAlert2" from 9.10.12 to 9.15.2
+Updated "noUiSlider" from 13.1.4 to 14.6.0
+Updated "Animate.css" from 3.7.2 to 4.1.0
+Updated "JSFuck" from 2.14.0 to 2.14.1
+Updated "JSZip" from 3.3.0 to 3.5.0
+Removed "PSN Resolver" from Fraud Tools.
+Whole backend rearrangement.
+
+06/06/2020
+Removed "Fake Identity" from Fraud Tools.
+Updated "JS Obfuscator" from 0.28.2 to 1.0.1
+Updated "JS Deobfuscator" from 0.1 to 0.2 (Should be able to deobfuscate latest JS Obfuscator).
+Few other backend optimizations.
+
+27/05/2020
+Upgraded "JSFuck" from JSFuck to JScrewIt for better compatibility.
+Updated "JS Obfuscator" from 0.28.0 to 0.28.2
+Advertisement banners are converted to WebM for better loading time.
+The action "Clear Site Data" now also unregister service workers.
+Improved service worker.
+Changed the font on the header logo.
+The card header text size got enlarged.
+Changed theme to a flatter red.
+
+19/05/2020
+The ad-spot card is now taking less space.
+Few aesthetic changes on the footer.
+Changelog date format changed.
+Misc...
+
+13/05/2020
+Changed theme to Orange.
+Added "ASCII Art" to Text Tools.
+Upgraded Bootstrap from 4.4.1 to 4.5.0.
+Upgraded "JS Optimizer" from UglifyJS to Terser
+Updated "CSS Optimizer" from 4.0.2 to 4.0.3
+Fixed issue where the title will not save properly when page visibility change.
+Fixed few navigation issues.
+
+05/05/2020
+Added account access notification, If your account get accessed from another browser you will be notified.
+JS Deobfuscator has been rewritten in javascript.
+Removed "is-valid" state from registration username and email.
+Moved search icon a bit to the right.
+Updated from jQuery 3.5.0 to 3.5.1
+Upgraded Font Awesome to Pro.
+Changed Image Tools icon.
+
+26/04/2020
+Added "Website Link Extractor" to Website Tools.
+Added "Website Rank" to Website Tools.
+Added static pattern dots on the header.
+Added new animated icon on top search bar.
+Moved "Whois Lookup" from Website Tools to Network Tools.
+Updated and renamed "TCP Port Scan" to "Nmap Scan".
+Updated "ICMP Ping".
+Updated "Traceroute".
+Removed "CenturyLink" from dSTAT's L7.
+
+20/04/2020
+Changed theme to match with the international day of Cannabis
+API System will now it will require an username, more details on API Documentation.
+Removed access to Mrakovic Protector until it get updated.
+Now after buying an API Access the key will automatically get linked to your account (make sure your order email and website account email is same).
+JS Obfuscator has been rewritten in javascript.
+Added "Website Audit" to Website Tools.
+Added "Torrent Tracker" to Fraud Tools.
+Added password meter on Registration.
+Removed "DNS Resolver" from Website Tools.
+Removed "Code Converter" from Code Tools.
+Upgraded from XMLHttpRequests to Fetch.
+Upgraded OverlayScrollbars from 1.11.0 to 1.12.0
+Upgraded Bootstrap from 4.3.1 to 4.4.1
+Upgraded jQuery from 3.4.1 to 3.5.0
+Now the dSTAT's are all in one page.
+Added "Amazon" to dSTAT's L7.
+Added "CenturyLink" to dSTAT's L7.
+Added "DigitalOcean" to dSTAT's L7.
+Added "Google Cloud" to dSTAT's L7.
+Added "HostUS" to dSTAT's L7.
+Added "OVH" to dSTAT's L7.
+Updated few dstat domain name.
+Few other improvements.
+
+
+05/04/2020
+Added a whole authentication system.
+Added a custom user panel.
+Few tools are restricted and will require an account.
+Changed notification on copy button.
+(Since i done a lot of work in the authentication/user system report me any issue)
+
+01/04/2020
+Happy April Fools day !
+Theme changed to match with Easter Day  !
+The autocomplete search bar is now lightweight and sexier.
+Few other design improves.
+
+29/03/2020
+Now you can opt-in or out or analytics data from preferences.
+Added CyberGhost,SaferVPN detection to "IP Score".
+Added better scrollbar on sidebar.
+Added a top loading bar.
+Added a sticky sidebar.
+Fixed search bar not opening on md devices.
+Updated few repository.
+Few other changes.
+
+25/03/2020
+Theme changed to match with National Doctors' Day, Thanks to all Doctors/Physicians that spend their life time saving ours.
+Added PHP Protector to "Code Tools".
+IP Obfuscator has been rewritten in javascript.
+Added a fade effect on content that shows up.
+Few other design improvements.
+
+19/03/2020
+Released a PHP Protector called "Mrakovic Protector" for users with API Access, Check out the shop !
+
+09/03/2020
+Added JetBrains Giveaway to "Misc Tools" (Removed 15/03/2020).
+
+05/03/2020
+Improved autocomplete search by adding ajax content load.
+Removed Email Score. (api issues)
+Few other backend improvements.
+
+01/03/2020
+Website is back !
+Sorry for long down--time cyber-ddos closed and i have financial issues.
+To help me pay the server please donate BTC: 1HvmnaRE2rSnrhnou1Efc94zpD8yBjdQRs
+Also check our new Github Organization !
+Theme changed to match with World Water Day.
+DB Lookup will be closed for few days until i manage to upload whole database.
+Removed MC Resolver.
+
+30/01/2020
+Whole website is now using a fast ajax navigation (may still be unstable, it took me a long time to make it work smoothly).
+Removed JSON to CSHARP (was not good anyway).
+
+25/01/2020
+Changed theme to match with the upcoming Valentine's day.
+Removed the snowfall from header.
+Added PHPFuck to "Code Tools".
+Removed PHP Compressor (A bit useless).
+
+09/01/2020
+Added new section named "Image Tools".
+Added Image Colorizer to "Image Tools".
+Added Image Enhancer to "Image Tools".
+Added CDN Lookup to "Website Tools".
+Moved "Text Tools/Image to Text" to "Image Tools".
+Improved "Website Headers".
+Improved SEO by adding keywords in each tools.
+Changed request from urlencode to post json fields.
+
+01/01/2020
+Happy new year !
+Changed colors to match with new year.
+Added PHP Minify (beta).
+Removed Youtube Downloader (broken).
+Price changed on WannaShop.
+
+09/12/2019
+Whole website reworked to be much faster and cleaner.
+Removed Discord Join button (please use Telegram).
+Updated few other packages.
+Added new xmas shop banner.
+Added new scrolling bar for textarea.
+Added Linode to "dSTAT's L7".
+
+01/12/2019
+Changed website colors and theme to match with December.
+Alerts are now dark themed.
+
+26/11/2019
+API officially released! Get it from our SHOP
+Added JSUNFuck.
+Overall website improvement.
+
+16/11/2019 & Mrak
+IMPORTANT: My old discord server got deleted/banned for some reason, make sure to join our telegram instead.
+Improved DB Lookup speed by +99% (from a min to few ms).
+Added WAF Identifier.
+
+11/11/2019 & Mrak
+Revamped and API changed on BTC Balance, Website Screenshot, Image to Text, GeoIP, Phone Lookup, Fake Identity, Website History, Cloudflare Resolver, IP Logger, Whois Lookup, SMS Receiver.
+Removed Website Status, Website Rank, Skype Tools, IP Logger.
+
+07/11/2019
+Added Hypersquad Gifter to "Discord Tools".
+
+05/11/2019
+Added PHP Compressor to "Code Tools".
+
+04/11/2019
+Added PSN Resolver to "Fraud Tools".
+Revamped DNS Resolver on "Web Tools".
+Moved SMS Receiver to "Fraud Tools".
+Moved Minecraft Resolver to "Fraud Tools".
+Moved "dSTAT's L7" under "Fraud Tools".
+
+02/11/2019
+Whole website updated to improve SEO.
+Added Minecraft Resolver to "Misc Tools".
+Added to DB Lookup: CRACKED.TO(7%), VOID.TO(15%), YAHOO.COM, HOSTINGER.COM, MALWAREBYTES.COM(72%), ANDROIDFORUMS.COM, BITLY.COM, NEXTGENUPDATE.COM, PSX-SCENE.COM, PS3HAX.NET, GAMERZPLANET.NET, LEET.CC, FAUCETHUB.IO, POLINIEX.COM, STOCKX.COM, WALMART.COM.
+Halloween is gone so now website coloring will be green 😋.
+
+31/10/2019
+Happy Halloween everyone !
+Added HTML Minifier to "Code Tools".
+Few other improvements...
+
+29/10/2019
+Added JSON Optimizer to "Code Tools".
+Added XML Optimizer to "Code Tools".
+Added SQL Optimizer to "Code Tools".
+
+28/10/2019
+Added SMS Receiver to "Misc Tools".
+Fixed sidebar scrollbar for mobile devices.
+Now you can buy a DB Lookup blacklist.
+Few other improvements behind the hood.
+
+27/10/2019
+Added DB Lookup to "Fraud Tools". (Ty Mrak 😘)
+Added 000WEBHOST.COM, MEDIAFIRE.COM Database to DB Lookup.
+BTC Balance fixed.
+
+25/10/2019
+Added Status Changer to "Discord Tools".
+Few other improvements.
+
+23/10/2019
+Website design changed (might keep it only few weeks), give me your feedback it will help me a lot.
+dSTAT design changed too.
+Improved Autocomplete a bit.
+Improved IP Score on Fraud Tools (now can detect nordvpn,hidemyass).
+
+21/10/2019
+Revamped Duplicates Remover.
+Revamped Lines Randomizer.
+Revamped Lines Sorter.
+Revamped Find & Replace.
+Revamped Char Counter.
+Revamped Char Generator.
+Revamped Columns Splitter.
+Revamped Keep Containing.
+Revamped Keep Length.
+Added Empty Lines Remover.
+
+20/10/2019
+Website coloring a bit changed to match with Halloween
+Added Columns Splitter to "Text Tools".
+Added JS Deobfuscator to "Code Tools".
+Added Domain Lock & Source Map to JS Obfuscator.
+Improved JS Optimizer.
+Revamped JSFucker.
+
+18/10/2019
+Added Shuffler to "Text Tools".
+Alphabetically Sorted "Website Tools", "Network Tools", "Code Tools", "Text Tools", "Bitcoin Tools".
+Moved Discord Message Faker, Discord Picture Stealer to "Discord Tools".
+Moved GeoIP, ICMP Ping, TCP Port Scan, Traceroute to "Network Tools".
+Added char list to Char Generator on "Text Tools".
+IP Lookup renamed to GeoIP on "Web Tools".
+Ping renamed to ICMP Ping on "Web Tools".
+All single buttons moved to inputbox.
+CSS Minifier revamped into CSS Optimizer.
+JS Minifier revamped into JS Optimizer.
+Improved Zalgo Text.
+Improved Email To Skype.
+Removed Skype DB Lookup.
+
+16/10/2019
+Added Text Editor to "Text Tools".
+Added Alphabetical Sorter to "Text Tools".
+Added Traceroute to "Web Tools".
+misc...
+
+13/10/2019
+Added IP Obfuscator to "Text Tools".
+Added Keep Length to "Text Tools".
+
+11/10/2019
+Added Keep Containing to "Text Tools".
+Added Remove Duplicates to "Text Tools".
+Added Find & Replace to "Text Tools".
+
+04/10/2019
+Added DDoS-Guard to "dSTAT's L7".
+misc...
+
+30/09/2019
+Added Discord Message Faker to "Misc Tools". (Thanks to Night 😘)
+Fixed some image going outside the container.
+
+28/09/2019
+Added Discord Picture Stealer to "Misc Tools".
+Other fixes i don't remember.
+
+23/09/2019
+Some design fixes.
+Added JSFuck to "Code Tools".
+Added Cloudflare UAM to "dSTAT's L7".
+Added Cloudflare Captcha to "dSTAT's L7".
+
+21/09/2019
+Reworked a bit the backend.
+Added Reverse IP Lookup to "Web Tools".
+Added IP Logger to "Fraud Tools".
+The side navigation bar will now display current page.
+Updated Proxy Generator, now you can now filter countries, ports etc by separating them with a comma example (port: 80,8080,443).
+
+19/09/2019
+Huge update, i won't be able to list all changes 😂
+Added Identifier & Target to "JS Obfuscator".
+Revamped "Youtube Downloader".
+Updated website design.
+Using the dist clipboard.js instead of a single function to copy text.
+Improved BTC Balance.
+
+17/09/2019
+The whole website design has been reworked.
+Changed font to "Google Sans".
+Added Website Screenshot to "Web Tools".
+Added JS Minifier to "Code Tools".
+Added CSS Minifier to "Code Tools".
+Misc...
+
+14/09/2019
+Added new section named "Code Tools".
+Moved "HTML to JS" to "Code Tools".
+Moved "JSON to JS" to "Code Tools".
+Moved "Code Converter" to "Code Tools".
+Added JS Obfuscator to "Code Tools".
+Updated almost all icons.
+Fixed most request by using url encoding.
+
+13/09/2019
+Added search bar with auto complete.
+Changed loading on buttons.
+Improved BTC Accelerator.
+Improved Cloudflare Resolver.
+Added Website Status to "Web Tools".
+Added Youtube Downloader to "Misc Tools".
+Added HTML to JS to "Text Tools".
+Added JSON to Csharp to "Text Tools".
+Added Code Converter to "Misc Tools" (Thanks to Night 😘).
+API Changed on iptoskype, ip lookup, dns resolver.
+Major backend improvment, if any issue found please contact me.
+Fixed where you press enter it refresh the page, now it will submit the content.
+Revamped IP Lookup.
+Misc...
+
+08/09/2019
+Added Phone Lookup to "Fraud Tools".
+Added Website Rank to "Web Tools".
+Added Image to Text to "Text Tools".
+Added Email to Skype to "Skype Tools".
+Added OVH to "dSTAT L7".
+Updated Hetzner "dSTAT L7".
+Removed KrK-System from "dSTAT L7".
+Removed "SRV Resolver".
+Improved Skype Resolver.
+Improved Email Score.
+Improved website GUI.
+Fixed IP Score & Email Score.
+Misc...
